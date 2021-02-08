@@ -1,0 +1,85 @@
+$info: #00d1b2;
+$backgrount-color: #fff;
+
+@import '~bootstrap/scss/bootstrap';
+@media (min-width: 300px) {
+  ul {
+    padding-left: 5%;
+    padding-right: 0%;
+  }
+}
+
+@media (min-width: 576px) {
+  ul {
+    padding-left: 15%;
+    padding-right: 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  ul {
+    padding-left: 27%;
+    padding-right: 15%;
+  }
+}
+
+.nav-name {
+  font-weight: lighter;
+  margin: auto;
+}
+
+.app {
+  text-align: center;
+}
+
+.app-header {
+  align-items: center;
+  background-color: $backgrount-color;
+  color: $backgrount-color;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.beer-pics {
+  margin-top: 50px;
+  margin-left: 25px;
+  height: 110px;
+  width: 55px;
+}
+
+.card {
+  margin: 7px;
+}
+
+.card-content {
+  display: flex;
+}
+
+.card-info {
+  margin-left: 50px;
+}
+
+.card-text {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+  display: -webkit-box;
+  font-size: 1.15rem;
+  margin-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-title {
+  font-size: 1.15rem;
+  font-weight: bold;
+  margin-bottom: 1px;
+  margin-right: 10px;
+}
+
+.star-icon {
+  color: $info;
+  text-align: right;
+}
